@@ -1,0 +1,27 @@
+{
+  "name": "discordjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js ",
+    "test3": "nodemon test3.js ",
+    "test2": "nodemon test2.js ",
+    "com": "node deploy-commands.js"
+  },
+  "author": "412 (potion_overdose)",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "discord.js": "^14.7.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "googleapis": "^105.0.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7"
+  }
+}
