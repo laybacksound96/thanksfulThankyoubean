@@ -20,7 +20,7 @@ module.exports = {
       keyFile: "credentials.json",
       scopes: "https://www.googleapis.com/auth/spreadsheets",
     });
-    const spreadsheetId = "1L3hSZnj2HoajFVi-owguRLOSS7YnFxvQCWDzKrZOKao";
+    const spreadsheetId = "1gYG9kbotJA1RHtjL3JenjWklBgXlJ1INeeW74J_rBgQ";
     const client = await auth.getClient();
     const googleSheets = google.sheets({ version: "v4", auth: client });
     const nameRow = await getRow("J:J");
@@ -203,6 +203,7 @@ module.exports = {
                   remainingArray.push(Object.keys(arr[i]));
                 }
               } catch (e) {
+                console.log(inputName);
                 console.log(e);
               }
               break;
