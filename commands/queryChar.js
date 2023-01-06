@@ -196,6 +196,7 @@ module.exports = {
         function remainingCommanderCheck(userData) {
           const remainingArray = [];
           const arr = userData.Non_checked.reverse();
+
           switch (userData.Checked.length) {
             case 0:
               try {
@@ -203,7 +204,6 @@ module.exports = {
                   remainingArray.push(Object.keys(arr[i]));
                 }
               } catch (e) {
-                console.log(inputName);
                 console.log(e);
               }
               break;

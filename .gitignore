@@ -1,4 +1,3 @@
 /node_modules
 /test
-/config.json
-/credentials.json
+*.json

@@ -1,0 +1,9 @@
+# fly.toml file generated for thankyoubean on 2022-12-29T08:14:41+09:00
+
+app = "thankyoubean"
+kill_signal = "SIGINT"
+kill_timeout = 5
+processes = []
+
+[build]
+  builder = "heroku/buildpacks:20"
