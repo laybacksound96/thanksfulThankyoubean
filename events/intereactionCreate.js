@@ -7,10 +7,6 @@ module.exports = {
 
     const command = interaction.client.commands.get(interaction.commandName);
 
-    // if (interaction.commandName === "ㄴ") {
-    //   await interaction.deferReply();
-    //   await interaction.editReply(" ");
-    // }
     if (!command) {
       console.error(
         `No command matching ${interaction.commandName} was found.`
